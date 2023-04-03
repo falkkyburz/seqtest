@@ -1,0 +1,32 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "MSYS2_MINGW64": {
+            "path": "C:\\msys64\\usr\\bin\\bash.exe",
+            "args": [
+                "--login",
+                "-i"
+            ],
+            "env": {
+                "MSYSTEM": "MINGW64",
+                "CHERE_INVOKING": "1"
+            }
+        },
+        "MSYS2_MINGW32": {
+            "path": "C:\\msys64\\usr\\bin\\bash.exe",
+            "args": [
+                "--login",
+                "-i"
+            ],
+            "env": {
+                "MSYSTEM": "MINGW32",
+                "CHERE_INVOKING": "1"
+            }
+        }
+    },
+    "cSpell.words": [
+        "forceboot",
+        "new_sessioninfo",
+        "PCAN",
+        "seedkey"
+    ]
+}
